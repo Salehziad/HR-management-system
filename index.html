@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/stylesheet.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+    <link rel="shortcut icon" href="assest/management_29413.ico" type="image/x-icon">  
+    <title>HR management system</title>
+</head>
+
+<body>
+    <header>
+        <div class="lefft-header">
+            <img src="assest/hr_candidate_search_job_icon_191358.png" alt="">
+            <a href="index.html">
+                <h1>Hr System</h1>
+            </a>
+        </div>
+        <div class="right-header">
+            <a href="index.html">Home</a>
+            <a href="accounting.html">Accounting</a>
+        </div>
+    </header>
+    <main>
+        <div class="buttons-box">
+            <button class="button" id="button1" onclick="myFunction1()">Person 1</button>
+            <button class="button" id="button2" onclick="myFunction2()">Person 2</button>
+            <button class="button" id="button3" onclick="myFunction3()">Person 3</button>
+            <button class="button" id="button4" onclick="myFunction4()">Person 4</button>
+            <button class="button" id="button5" onclick="myFunction5()">Person 5</button>
+            <button class="button" id="button6" onclick="myFunction6()">Person 6</button>
+            <button class="button" id="button6" onclick="myFunction7()">Person 7</button>
+        </div>
+        <div class="grid-box">
+            <div class="person-container" id="person-container">
+                <div class="inf-content">
+                    <div class="row">
+                        <div class="col1">
+                            <img src="assest/saleh.jfif" alt="" id="user-img">
+                            <ul class="text-center">
+                                <a href=""><i class="fab fa-facebook"></i></a>
+                                <a href=""><i class="fab fa-instagram"></i></a>
+                                <a href=""><i class="fab fa-linkedin-in"></i></a>
+                            </ul>
+                        </div>
+                        <div class="col2">
+                            <p>
+                                Informatio
+                            </p>
+                            <div>
+                                <table class="table">
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                Full Name:
+                                            </td>
+                                            <td id="Full Name">
+                                                Saleh Ziad
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                Employee ID:
+                                            </td>
+                                            <td id="Employee ID">
+                                                999
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                Department:
+                                            </td>
+                                            <td id="Department">
+                                                Front-end
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                Level:
+                                            </td>
+                                            <td id="Level">
+                                                Senior
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                Salary:
+                                            </td>
+                                            <td id="Salary">
+                                                500
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="person-container">
+                <div class="inf-content">
+                    <div class="row">
+                        <div class="col1">
+                            <img src="assest/user.png" alt="" id="user-img">
+                            <ul class="text-center">
+                                <a><i class="fab fa-facebook"></i></a>
+                                <a><i class="fab fa-instagram"></i></a>
+                                <a><i class="fab fa-linkedin-in"></i></a>
+                            </ul>
+                        </div>
+                        <div class="col2">
+                            <p>
+                                Informatio
+                            </p>
+                            <div class="table">
+                                <table class="table">
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                Identificacion
+                                            </td>
+                                            <td id="Employee ID2">
+                                                123456789
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                Name
+                                            </td>
+                                            <td>
+                                                Bootdey
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                Lastname
+                                            </td>
+                                            <td>
+                                                Bootstrap
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                Username
+                                            </td>
+                                            <td>
+                                                bootnipets
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="person-container">
+                <div class="inf-content">
+                    <div class="row">
+                        <div class="col1">
+                            <img src="assest/user.png" alt="" id="user-img">
+                            <ul class="text-center">
+                                <a><i class="fab fa-facebook"></i></a>
+                                <a><i class="fab fa-instagram"></i></a>
+                                <a><i class="fab fa-linkedin-in"></i></a>
+                            </ul>
+                        </div>
+                        <div class="col2">
+                            <p>
+                                Informatio
+                            </p>
+                            <div class="table">
+                                <table class="table">
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                Identificacion
+                                            </td>
+                                            <td>
+                                                123456789
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                Name
+                                            </td>
+                                            <td>
+                                                Bootdey
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                Lastname
+                                            </td>
+                                            <td>
+                                                Bootstrap
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                Username
+                                            </td>
+                                            <td>
+                                                bootnipets
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="person-container">
+                <div class="inf-content">
+                    <div class="row">
+                        <div class="col1">
+                            <img src="assest/user.png" alt="" id="user-img">
+                            <ul class="text-center">
+                                <a><i class="fab fa-facebook"></i></a>
+                                <a><i class="fab fa-instagram"></i></a>
+                                <a><i class="fab fa-linkedin-in"></i></a>
+                            </ul>
+                        </div>
+                        <div class="col2">
+                            <p>
+                                Informatio
+                            </p>
+                            <div class="table">
+                                <table class="table">
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                Identificacion
+                                            </td>
+                                            <td>
+                                                123456789
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                Name
+                                            </td>
+                                            <td>
+                                                Bootdey
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                Lastname
+                                            </td>
+                                            <td>
+                                                Bootstrap
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                Username
+                                            </td>
+                                            <td>
+                                                bootnipets
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="person-container">
+                <div class="inf-content">
+                    <div class="row">
+                        <div class="col1">
+                            <img src="assest/user.png" alt="" id="user-img">
+                            <ul class="text-center">
+                                <a><i class="fab fa-facebook"></i></a>
+                                <a><i class="fab fa-instagram"></i></a>
+                                <a><i class="fab fa-linkedin-in"></i></a>
+                            </ul>
+                        </div>
+                        <div class="col2">
+                            <p>
+                                Informatio
+                            </p>
+                            <div class="table">
+                                <table class="table">
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                Identificacion
+                                            </td>
+                                            <td>
+                                                123456789
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                Name
+                                            </td>
+                                            <td>
+                                                Bootdey
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                Lastname
+                                            </td>
+                                            <td>
+                                                Bootstrap
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                Username
+                                            </td>
+                                            <td>
+                                                bootnipets
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="person-container">
+                <div class="inf-content">
+                    <div class="row">
+                        <div class="col1">
+                            <img src="assest/user.png" alt="" id="user-img">
+                            <ul class="text-center">
+                                <a><i class="fab fa-facebook"></i></a>
+                                <a><i class="fab fa-instagram"></i></a>
+                                <a><i class="fab fa-linkedin-in"></i></a>
+                            </ul>
+                        </div>
+                        <div class="col2">
+                            <p>
+                                Informatio
+                            </p>
+                            <div class="table">
+                                <table class="table">
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                Identificacion
+                                            </td>
+                                            <td>
+                                                123456789
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                Name
+                                            </td>
+                                            <td>
+                                                Bootdey
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                Lastname
+                                            </td>
+                                            <td>
+                                                Bootstrap
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                Username
+                                            </td>
+                                            <td>
+                                                bootnipets
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+        </div>
+    </main>
+    <script src="js/app.es6"></script>
+</body>
+
+</html>
