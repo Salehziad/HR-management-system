@@ -31,7 +31,7 @@ Info.prototype.summary = function () {
     document.getElementById("Department").innerHTML=this.department
     document.getElementById("Level").innerHTML=this.level
     document.getElementById("Salary").innerHTML=this.salary
-    document.getElementById("user-img").setAttribute('src',this.image);
+    document.getElementById("user-img").setAttribute('src','url here');
 }
 
 function myFunction1() {
@@ -74,7 +74,6 @@ function myFunction7() {
 
 
 
-
 // console.log(ghaziSamer);
 // console.log(lanaAli);
 // console.log(tamaraAyoub);
@@ -93,10 +92,12 @@ function seniorSallary() {
 
 function midSeniorSallary() {
     mid_senior_sallary = Math.floor(Math.random() * (1500 - 1000 + 1)) + 1000;
+    mid_senior_sallaryy=Math.round(mid_senior_sallary-mid_senior_sallary*0.075);
     return mid_senior_sallary;
 }
 
 function juniorSallary() {
     junior_sallary = Math.floor(Math.random() * (1000 - 500 + 1)) + 500;
+    junior_sallary=Math.round(junior_sallary-junior_sallary*0.075);
     return junior_sallary;
 }
