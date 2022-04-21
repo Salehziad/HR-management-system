@@ -31,7 +31,7 @@ Info.prototype.summary = function () {
     document.getElementById("Department").innerHTML=this.department
     document.getElementById("Level").innerHTML=this.level
     document.getElementById("Salary").innerHTML=this.salary
-    document.getElementById("user-img").setAttribute('src','url here');
+    document.getElementById("user-img").setAttribute('src',this.image);
 }
 
 function myFunction1() {
