@@ -44,7 +44,7 @@ function myFunction2() {
 }
 function myFunction3() {
     tamaraAyoub.summary();
-    document.getElementById("person-container").style.backgroundColor="#A1E3D8"
+    document.getElementById("person-container").style.backgroundColor="#E4AEC5"
 }
 function myFunction4() {
     safiwalid.summary();
@@ -52,15 +52,15 @@ function myFunction4() {
 }
 function myFunction5() {
     omarzaid.summary();
-    document.getElementById("person-container").style.backgroundColor="#A1E3D8"
+    document.getElementById("person-container").style.backgroundColor="#332FD0"
 }
 function myFunction6() {
     ranasaleh.summary();
-    document.getElementById("person-container").style.backgroundColor="#A1E3D8"
+    document.getElementById("person-container").style.backgroundColor="#FC4F4F"
 }
 function myFunction7() {
     hadiahmad.summary();
-    document.getElementById("person-container").style.backgroundColor="#A1E3D8"
+    document.getElementById("person-container").style.backgroundColor="#65C18C"
 }
 
 
