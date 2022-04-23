@@ -1,38 +1,65 @@
-// var first_Person = {
-//     firstName: "John",
-//     lastName: "Doe",
-//     age: 42,
-//     hobby: "Reading",
-//   };
-// let out;
-// const objLat = (obj) => {
-//     console.log("my name is "+first_Person.firstName.trim().replace(/^\w/, (c) => c.toUpperCase())
-//     +" "+first_Person.lastName.trim().replace(/^\w/, (c) => c.toUpperCase())
-//     +" "+"I am "+first_Person.age+" YO, and I love "+first_Person.hobby
-//     );
-//     return out;
-// };
-// objLat(first_Person);
+change img js// .setAttribute('src','img/rm2.png');
+font awesome //      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
 
 
-// my name is John Doe I am 42 YO, and I love Reading.
-// my name is John Doe I am 42 YO, and I love Reading.
-// //.replace(/\w\S*/g, (w) => (w.replace(/^\w/, (c) => c.toUpperCase())));
+// let select = document.getElementById("mySelect");
+// let submit = document.getElementById("btn");
+// let names;
+// submit.addEventListener("click", handleSubmit);
 
-// var second_Person = {
-//   firstName: "Jane",
-//   lastName: "Doe",
-//   age: 33,
-//   hobby: "Campaign",
-// };
-// let message;
-// const objLat = (obj) => {
-//   message=("my name is "+second_Person.firstName.trim().replace(/^\w/, (c) => c.toUpperCase())
-//   +" "+second_Person.lastName.trim().replace(/^\w/, (c) => c.toUpperCase())
-//   +" "+"I am "+second_Person.age+" YO, and I love "+second_Person.hobby+"."+""
-//   );
-//   return message;
-// };
-// objLat(second_Person);
+// function handleSubmit() {
+//     // alert("hhh");
+//     select.addEventListener("change", myFunction);
+//     myFunction();
+//     names.innerHTML = select.value;
+// }
+// function myFunction() {
+//     names = document.getElementById("h1");
+// }
 
-console.log(document.getElementById('greet').value);
+
+
+'use strict';
+let sectionEl = document.getElementById("cardSection");
+let formEl = document.getElementById("formID");
+let select = document.getElementById("option");
+
+function Drink(name, options) {
+    this.name = name;
+    this.options = options;
+
+
+}
+Drink.prototype.render = function () {
+    // createing h3 for the name of the drink
+    let name = document.createElement('h1');; // <h3> </h3>
+    name.textContent = this.name; // <h3> the name of the drink </h3>
+    sectionEl.appendChild(name) // I can see the name inside the section
+
+    let option=document.createElement('h1');
+    option.textContent=this.options;
+    sectionEl.appendChild(option)
+
+
+}
+
+formEl.addEventListener("submit", handleSubmit);
+
+function handleSubmit(event) {
+    // the default behaviour of submitting the form is to refresh the page
+    event.preventDefault();
+    let drinkName = event.target.drinkName.value;
+    
+    // select.addEventListener("change", myFunction);
+    myFunction();
+    let newDrink = new Drink(drinkName );
+
+    newDrink.render();
+}
+
+function myFunction(event) {
+    let options=event.target.value;
+    let newDrink = new Drink(options);
+
+    newDrink.render();
+}
