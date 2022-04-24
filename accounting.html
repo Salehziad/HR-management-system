@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style/stylesheet.css">
+    <link rel="stylesheet" href="style/accounting.css">
     <title>Accounting</title>
 </head>
+
 <body>
     <header>
         <div class="lefft-header">
@@ -21,50 +23,25 @@
         </div>
     </header>
     <main>
-        <!-- from section  -->
-        <section>
-            <fieldset>
-                <form id="formID">
-                    <label for="drinkName">Drink name:</label><br>
-                    <input type="text" id="drinkName" name="drinkName"><br>
+        <section class="container">
+            <table >
+                <thead>
+                    <tr>
+                        <td> Name</td>
+                        <td>Employee Id</td>
+                        <td> Department</td>
+                        <td>level</td>
+                        <td>salary</td>
+                    </tr>
+                </thead>
+                <tbody id="tableID">
 
-                    <select id="option">
-                        <option value="volvo">Volvo</option>
-                        <option value="saab">Saab</option>
-                        <option value="opel">Opel</option>
-                        <option value="audi">Audi</option>
-                      </select>
-                    <!-- <label for="image">Image link:</label><br>
-                    <input type="text" id="image" name="image"><br> -->
-
-
-                    <input type="submit" value="Add Drink">
-                </form>
-            </fieldset>
+                </tbody>
+            </table>
         </section>
-        <!-- cards section -->
-        <section id="cardSection">
-        </section>
-        </main>>
-    <footer>
-        <div class="section1-footer">
-            <p>
-                phone number:
-            </p>
-            <p>
-                +962785889613
-            </p>
-            <p>
-                Amman-jordan
-            </p>
-            <p>
-                <a href="">@copyright:Salehziad</a>
-            </p>
-        </div>
-        <div class="section2-footer">
-            <img src="assest/map.png" alt="">
-        </div>
-    </footer>
+    </main>>
+
     <script src="js/ss.es6"></script>
 </body>
+
 </html>

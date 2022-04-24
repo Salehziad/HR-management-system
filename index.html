@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/stylesheet.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
-    <link rel="shortcut icon" href="assest/management_29413.ico" type="image/x-icon">  
+    <link rel="shortcut icon" href="assest/management_29413.ico" type="image/x-icon">
     <title>HR management system</title>
 </head>
 
@@ -25,15 +25,36 @@
         </div>
     </header>
     <main>
-        <div class="buttons-box">
-            <button class="button" id="button1" onclick="myFunction1()">Person 1</button>
-            <button class="button" id="button2" onclick="myFunction2()">Person 2</button>
-            <button class="button" id="button3" onclick="myFunction3()">Person 3</button>
-            <button class="button" id="button4" onclick="myFunction4()">Person 4</button>
-            <button class="button" id="button5" onclick="myFunction5()">Person 5</button>
-            <button class="button" id="button6" onclick="myFunction6()">Person 6</button>
-            <button class="button" id="button6" onclick="myFunction7()">Person 7</button>
-        </div>
+        <section>
+            <section>
+                <fieldset>
+                    <form id="formID">
+                        <label for="drinkName">Drink name:</label><br>
+                        <input type="text" id="fullName" name="fullName"><br>
+    
+                        <select id="dep_option">
+                            <option>Department</option>
+                            <option value="Administration">Administration</option>
+                            <option value="Marketing">Marketing</option>
+                            <option value="Development">Development</option>
+                            <option value="Finance">Finance</option>
+                        </select>
+                        <select id="lvl_option">
+                            <option>Level</option>
+                            <option value="Senior">Senior</option>
+                            <option value="Mid-Senior">Mid-Senior</option>
+                            <option value="Junior">Junior</option>
+
+                        </select>
+                        <label for="image">Drink name:</label><br>
+                        <input type="text" id="image" name="omg"><br>
+    
+    
+    
+                        <input type="submit" value="Add Drink">
+                    </form>
+                </fieldset>
+            </section>
         <div class="grid-box">
             <div class="person-container" id="person-container">
                 <div class="inf-content">
@@ -101,8 +122,9 @@
                 </div>
             </div>
         </div>
+        </section>
     </main>
-    <footer>
+    <!-- <footer>
         <div class="section1-footer">
             <p>
                 phone number:
@@ -118,10 +140,12 @@
             </p>
         </div>
         <div class="section2-footer">
+
             <img src="assest/map.png" alt="">
         </div>
-    </footer>
+    </footer> -->
     <script src="js/app.es6"></script>
+    <!-- <script src="js/ss.es6"></script> -->
 </body>
 
 </html>
