@@ -77,3 +77,52 @@ table tbody td:hover{
 table tbody tr:nth-child(odd) {
 	background-color: #ffffff;
 }
+
+footer{
+    background-image: linear-gradient(#A85CF9,  #40DFEF);
+
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    height: 160px;
+}
+.section1-footer{
+    margin-left: 30px;
+    margin-top: 15px;
+    
+}
+.section1-footer p:nth-child(1){
+    font-size: 23px;
+    margin-top: 10px;
+    color: white;
+}
+.section1-footer p:nth-child(2){
+    font-size: 17px;
+    margin-top: 10px;
+    color: white;
+}
+.section1-footer p:nth-child(3){
+    font-size: 18px;
+    margin-top: 10px;
+    color: white;
+}
+
+.section1-footer p:nth-child(4){
+    font-size: 18px;
+    margin-top: 10px;
+    
+}
+.section1-footer p:nth-child(4) a{
+    text-decoration: none;
+    color: blue;
+}
+.section2-footer{
+    margin-top: 20px;
+    margin-right: 30px;
+}
+.section2-footer img {
+    position: relative;
+    text-align: right;
+    width: 400px;
+    height: 130px;
+}
