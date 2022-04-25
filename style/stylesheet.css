@@ -132,6 +132,8 @@ header{
 }
 /* *************************** footer */
 footer{
+    background-image: linear-gradient(#A85CF9,  #40DFEF);
+
     display: flex;
     justify-content: space-between;
     margin-top: 50px;
